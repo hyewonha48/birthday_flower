@@ -1,0 +1,31 @@
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+
+p {font-family:"pretendard";}
+h1 {font-family:"pretendard"; font-weight: 800}
+
+body {background-color:#000;}
+#wrap {
+    background-color:#fff; width:440px; height:956px; margin:0 auto; 
+    background-image:url(../images/bg1.jpg);
+    background-size:cover; /* w/h */
+    background-repeat:no-repeat; /* 화면보다 이미지가 작을때 */
+    background-position:center; /* x/y */
+    padding:110px 0 0;
+    text-align:center;
+}
+#wrap #title {}
+#wrap #title h1 {margin-bottom:15px; font-size:2.25em;}
+#wrap #title p {margin-bottom:30px;}
+#wrap #title h1 span {}
+#wrap #birthday_frm > * {display:block;text-align:center; margin:0 auto;;}
+#wrap #birthday_frm input {width:130px; height:40px; background-color:rgba(0, 0, 0, 0.6);
+    color:rgb(255, 255, 255); border-radius:5px;}
+#wrap #birthday_frm input::placeholder {color:#c09d9d;}
+#wrap #birthday_frm input:focus {border:2px solid #c09d9d;}
+#wrap #birthday_frm #user_year {margin-bottom:10px;}
+#wrap #birthday_frm #user_month {margin-bottom:10px;}
+#wrap #birthday_frm #user_day {margin-bottom:30px;}
+#wrap #birthday_frm #birthday_btn {width:200px; height:40px; text-align:center;
+    color:white; background-color:#000; border-radius:20px;}
+#wrap #birthday_frm #birthday_btn:hover {background-color: #a84f4f;}
