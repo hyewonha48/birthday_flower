@@ -1,12 +1,9 @@
-<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
-<link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
-
 p {font-family:"pretendard";}
-h1 {font-family:"pretendard"; font-weight: 800}
+h1 {font-family:"pretendard"; font-weight: 1000}
 
 body {background-color:#000;}
 #wrap {
-    background-color:#fff; width:440px; height:956px; margin:0 auto; 
+    background-color:#fff; width:430px; height:932px; margin:0 auto; 
     background-image:url(../images/bg1.jpg);
     background-size:cover; /* w/h */
     background-repeat:no-repeat; /* 화면보다 이미지가 작을때 */

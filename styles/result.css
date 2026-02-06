@@ -1,0 +1,24 @@
+body {background-color:#000;}
+#wrap {width:430px; height:932px; margin:0 auto;
+    background-image:url(../images/bg5.jpg); background-size:cover;
+    text-align:center; padding-top:110px;}
+#wrap #title {font-size:1.5rem;}
+#wrap #title p {padding-bottom:10px;}
+#wrap #title h1 {font-weight:600}
+#wrap #contents {margin:0 0 60px;}
+#wrap #contents p {}
+#wrap #contents p:nth-child(3) {font-size:1.13rem; padding:10px;}
+#wrap #contents .user_Month {font-style:italic; font-family:'pretendard'; font-weight:300; padding-top:40px; padding-bottom:70px;}
+#wrap #contents .result {}
+#wrap #contents .result p {}
+#wrap #contents .result p em {}
+#wrap #share_btn {width:200px; height:40px; border-radius:20px; line-height:0;
+    display:block; background-color:black; color:white; margin:0 auto 32px;}
+#wrap #share_btn:hover {background-color: #4876ad;}
+#wrap .home {font-family:'pretendard'; font-size:0.75rem;}
+#wrap .home:hover {text-decoration:underline;}
+
+
+/* {text-decoration:underline;} =텍스트 밑줄 */
+/* background-size:150px auto */
+
