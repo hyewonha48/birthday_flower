@@ -27,3 +27,6 @@ body {background-color:#000;}
 #wrap #birthday_frm #birthday_btn {width:200px; height:40px; text-align:center;
     color:white; background-color:#000; border-radius:20px;}
 #wrap #birthday_frm #birthday_btn:hover {background-color: #a84f4f;}
+#wrap .error_msg {font-size: 0.75rem; color: #fff; font-family: '맑은고딕', sans-serif; line-height: 2; font-weight: 600;
+    display: none;/* 초기 숨기기 */
+}
